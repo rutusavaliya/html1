@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--html table tag-->
+    <table>
+        <caption>this is table tag</caption>
+
+
+        <!--<figcaption>this is table tag</figcaption>-->
+        <thead>
+            <tr>
+                <th>no.</th>
+                <th>fullname</th>
+                <th>position</th>
+                <th>salary</th>
+                <th>type</th>
+            </tr>
+        </thead>
+
+        <body>
+            <tr>
+                <td>1</td>
+                <td>bill gates</td>
+                <td>founder microsoft</td>
+                <td>$1000</td>
+                <td rowspan="4">compuny founder</td>
+
+            </tr>
+            <tr>
+
+                <td>2</td>
+                <td>steve jobs</td>
+                <td>founder apple</td>
+                <td>$1200</td>
+                <!--<td>compuny founder</td>-->
+
+            </tr>
+            <tr>
+
+                <td>3</td>
+                <td>larry page</td>
+                <td>founder google</td>
+                <td>$1100</td>
+                <!--<td>compuny founder</td>-->
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>mark zuckerberg</td>
+                <td>founder facebook</td>
+                <td>$1300</td>
+                <!--<td>compuny founder</td>-->
+
+            </tr>
+            <tr>
+                <td colspan="3">total expense</td>
+                <td>$4600</td>
+                <!--<td style ="border:none;"></td>-->
+            </tr>
+        </body>
+    </table>
+</body>
+
+</html>
